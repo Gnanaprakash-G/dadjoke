@@ -1,0 +1,51 @@
+.btn
+{
+  padding: 10px 50px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 40px;
+  background-color: rgb(218, 190, 190);
+  box-shadow: 1px 3px 5px rgba(67, 66, 66, 0.3);
+  transition: box-shadow .25s;
+  cursor: pointer;
+}
+.btn:hover
+{
+  box-shadow: 1px 3px 5px rgba(67, 66, 66, 0.5);
+}
+body
+{
+  margin: 0;
+  background:linear-gradient(to left bottom,#833ab4,#fd1d1d,#fcb045);
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container
+{
+  background-color: rgba(255, 255, 255,.3);
+  padding: 20px;
+  box-shadow: 0px 3px 5px rgba(67, 66, 66, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  width: 70%;
+}
+.heading
+{
+  font-weight: 200;
+  font-size: 35px;
+  font-family: lora;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+}
+.joke
+{
+  color: white;
+  margin: 40px;
+  font-size: 25px;
+}
